@@ -4,7 +4,15 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            List<Vehicle> _vehicles = new List<Vehicle>()
+            {
+                new GoKart("Toad", "Red and White", 250, 0),
+                new Motorcycle("Peach", "Pink", 125, 0)
+            };
+
+            Boat boat = new Boat();
+
+            
         }
     }
 }
